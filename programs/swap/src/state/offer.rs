@@ -1,7 +1,7 @@
 use anchor_lang::prelude::*;
 
 #[account]
-#[derive(Interface)]
+#[derive(InitSpace)]
 pub struct Offer {
     pub id: u64,
     pub maker: Pubkey,
